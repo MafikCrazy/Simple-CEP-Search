@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
